@@ -4,6 +4,8 @@
 
 <b>Step-1: Configure NFS Server on your Linux System</b>
 
+This ensures that NFS is already installed
+
 ```
 $cat /etc/exports
 
