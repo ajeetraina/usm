@@ -16,7 +16,15 @@ $cat /etc/exports
 Step-2: Start the NFS service
 
 ```
-$systemctl restart nfs
+$systemctl restart nfs-kernel-server
+
+```
+
+Ensure that the below command shwows up the shared directory:
+
+```
+showmount -e localhost
+/var/nfsshare *
 
 ```
 
